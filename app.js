@@ -10,7 +10,7 @@ function main (){
     console.log(quiz);
 
     console.log(
-        quiz.getPreguntasIndex() )
+        quiz.getPreguntasIndex());
 }
 
 main()
