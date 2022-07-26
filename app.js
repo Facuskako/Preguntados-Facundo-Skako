@@ -1,16 +1,20 @@
 import {nuevasPreguntas} from "./data/questions.js";
 import {Cuestionario} from "./models/Cuestionario.js"
+import {UI} from "./models/UI.js"
+
+
 
 function main (){
     const quiz = new Cuestionario(nuevasPreguntas);
+        const ui = new UI();
 
-    quiz.guess("opcion1")
+
+        ui.mostrarPregunta(quiz.getPreguntasIndex().texto)
+        ui.mostrarOpciones(quiz.getPreguntasIndex().opciones)
 
 
-    console.log(quiz);
 
-    console.log(
-        quiz.getPreguntasIndex());
+
 }
 
 main()

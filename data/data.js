@@ -4,7 +4,7 @@ export const data = [
 
     {
         preguntas: "Quien canta el tema Ojala??",
-        opciones: ["Maria Becerra,Nicki Nicole,Nathy Peluso"],
+        opciones: ["Maria Becerra", "Nicki Nicole","Nathy Peluso"],
         respuesta: "Maria Becerra"
 
 
@@ -12,7 +12,7 @@ export const data = [
 
     {
         preguntas: "Quien canta el tema Antes de perderte?",
-        opciones: ["FMK,Duki,Lit Killah"],
+        opciones: ["FMK","Duki","Lit Killah"],
         respuesta: "Duki"
 
 
@@ -20,7 +20,7 @@ export const data = [
 
     {
         preguntas: "Quien protagoniza la Bzrp Music Session #51??",
-        opciones: ["Villano Antillano,Quevedo,Residente"],
+        opciones: ["Villano Antillano","Quevedo","Residente"],
         respuesta: "Villano Antillano"
 
 

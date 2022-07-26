@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor__general {
+    background: rgb(203, 44, 240);
+    background: radial-gradient(circle, rgba(203, 44, 240, 1) 15%, rgba(240, 44, 92, 1) 35%, rgba(233, 1, 246, 1) 44%, rgba(0, 255, 224, 1) 84%, rgba(21, 193, 231, 1) 91%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#cuestionario {
+    background-color: rgba(0, 0, 0, 40%);
+    width: 30rem;
+    padding: 4rem;
+    text-align: center;
+
+}
+
+.titulo__cuestionario{
+    color: #2c52f0;
+    font-size: 3rem;
+    text-align: center;
+    padding: 2px 0;
+}
+
+#pregunta{
+    font-size: 1.7rem;
+    color: black;
+}
+
+#opciones{
+    align-items: center;
+}
+
+.boton{
+    background-color:rgb(203, 44, 240);
+    color: white;
+    width: 250px;
+    font-size: 20px;
+    border-radius: .3rem;
+    padding: 10px 20px;
+    margin: 10px 40px 10px 0;
+    outline: 0;
+}
+
+.boton:hover{
+    cursor: pointer;
+    background-color:#2c52f0 ;
+
+}
+
+#progreso{
+    font-size: 20px;
+    margin: 10px;
+    
+}
