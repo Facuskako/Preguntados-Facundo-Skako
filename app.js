@@ -10,7 +10,8 @@ function main (){
 
 
         ui.mostrarPregunta(quiz.getPreguntasIndex().texto)
-        ui.mostrarOpciones(quiz.getPreguntasIndex().opciones)
+        ui.mostrarOpciones(quiz.getPreguntasIndex().opciones,(opcionElegida) =>
+         quiz.guess(opcionElegida))
 
 
 

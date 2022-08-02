@@ -8,7 +8,7 @@ export class UI {
 
     }
 
-    mostrarOpciones(opciones){
+    mostrarOpciones(opciones, callback){
         const opcionesContenedor = document.getElementById("opciones")
         
 
@@ -16,6 +16,7 @@ export class UI {
             const boton = document.createElement("button")
             boton.innerText = opciones[i]
             boton.className = "boton"
+            boton.addEventListener ("click", () => callback (opciones[i]))
 
 
             opcionesContenedor.append(boton)

@@ -27,6 +27,7 @@ export class Cuestionario {
 //** Logica para indicar la suma del puntaje final */
     guess(respuesta) {
 
+        console.log(respuesta)
         if (this.getPreguntasIndex().respuestaCorrecta(respuesta)){
             this.puntaje++
         }
