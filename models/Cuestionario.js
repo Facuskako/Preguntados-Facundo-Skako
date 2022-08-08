@@ -20,7 +20,7 @@ export class Cuestionario {
 
 //** Logica para indicar que ha finalizado el juego */
 
-    juegoFinalizado(){
+    haFinalizado(){
         return this.preguntas.length === this.preguntasIndex
     }
 

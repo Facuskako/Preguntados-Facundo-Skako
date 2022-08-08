@@ -12,7 +12,7 @@ export class Question {
 
 /**Validacion de respuesta correcta */
     respuestaCorrecta(opcion) {
-        return opcion ===  this.pregunta
+        return opcion ===  this.respuesta
         
     }
 

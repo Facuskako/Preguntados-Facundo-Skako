@@ -12,7 +12,7 @@
     height: 100vh;
 }
 
-#cuestionario {
+.cuestionario__contenedor{
     background-color: rgba(0, 0, 0, 40%);
     width: 30rem;
     padding: 4rem;

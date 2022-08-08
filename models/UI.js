@@ -10,6 +10,7 @@ export class UI {
 
     mostrarOpciones(opciones, callback){
         const opcionesContenedor = document.getElementById("opciones")
+        opcionesContenedor.innerHTML = ""
         
 
         for (let i = 0; i < opciones.length; i++){
@@ -23,5 +24,30 @@ export class UI {
         }
     }
 
+
+
+    mostrarPuntaje(puntaje){
+        const quizFinalHTML = `
+        <h1>Resultado</h1>
+        <h2 class="titulo__cuestionario">Tu Puntaje es: ${puntaje}</h2>
+        <h3> !Felicitaciones¡ </h3>
+        `;
+
+
+        const elemento = document.getElementById("cuestionario")
+        elemento.innerHTML = quizFinalHTML
+        
+        
+    
+    
+    
+    
+    }
+
+
+    mostrarProgreso(currentIndex, total) {
+        const elementofooter = document.getElementById("progreso");
+        elementofooter.innerHTML = `Pregunta ${currentIndex} de ${total}`;
+      }
 }
 

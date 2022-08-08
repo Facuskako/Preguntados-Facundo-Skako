@@ -1,17 +1,28 @@
-import {nuevasPreguntas} from "./data/questions.js";
-import {Cuestionario} from "./models/Cuestionario.js"
-import {UI} from "./models/UI.js"
+import { nuevasPreguntas } from "./data/questions.js";
+import { Cuestionario } from "./models/Cuestionario.js"
+import { UI } from "./models/UI.js"
 
 
-
-function main (){
-    const quiz = new Cuestionario(nuevasPreguntas);
-        const ui = new UI();
-
-
+const paginaRenderizada = (quiz, ui) => {
+    if (quiz.haFinalizado()) {
+        ui.mostrarPuntaje(quiz.puntaje)
+    } else {
         ui.mostrarPregunta(quiz.getPreguntasIndex().texto)
-        ui.mostrarOpciones(quiz.getPreguntasIndex().opciones,(opcionElegida) =>
-         quiz.guess(opcionElegida))
+        ui.mostrarOpciones(quiz.getPreguntasIndex().opciones, (opcionElegida) => {
+            quiz.guess(opcionElegida)
+            paginaRenderizada(quiz, ui)
+        });
+        ui.mostrarProgreso(quiz.questionIndex, quiz.questions.length)
+    }
+}
+
+
+function main() {
+    const quiz = new Cuestionario(nuevasPreguntas);
+    const ui = new UI();
+
+
+    paginaRenderizada(quiz, ui)
 
 
 
