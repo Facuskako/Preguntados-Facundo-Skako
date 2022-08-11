@@ -12,7 +12,7 @@ const paginaRenderizada = (quiz, ui) => {
             quiz.guess(opcionElegida)
             paginaRenderizada(quiz, ui)
         });
-        ui.mostrarProgreso(quiz.questionIndex, quiz.questions.length)
+        ui.mostrarProgreso(quiz.preguntasIndex + 1, quiz.preguntas.length)
     }
 }
 

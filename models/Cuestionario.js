@@ -28,9 +28,9 @@ export class Cuestionario {
     guess(respuesta) {
 
         console.log(respuesta)
-        if (this.getPreguntasIndex().respuestaCorrecta(respuesta)){
-            this.puntaje++
-        }
+        const puntajeFinal = (this.getPreguntasIndex().respuestaCorrecta(respuesta)) ? this.puntaje++ : false
+            
+        
 
 
         this.preguntasIndex++

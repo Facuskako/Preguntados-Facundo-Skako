@@ -45,9 +45,9 @@ export class UI {
     }
 
 
-    mostrarProgreso(currentIndex, total) {
-        const elementofooter = document.getElementById("progreso");
-        elementofooter.innerHTML = `Pregunta ${currentIndex} de ${total}`;
+    mostrarProgreso(indiceActual, total) {
+        const elementoFooter = document.getElementById("progreso");
+        elementoFooter.innerHTML = `Pregunta ${indiceActual} de ${total}`;
       }
 }
 
