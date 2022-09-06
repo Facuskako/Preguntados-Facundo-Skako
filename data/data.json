@@ -22,5 +22,157 @@
         "respuesta": "Villano Antillano"
 
 
+    },
+
+    {
+        "preguntas": "Quien realizo una participacion especial junto a Bizarrap en la edicion 2022 de Lollapallooza??",
+        "opciones": ["Ciro", "Gaspar Benegas","Duki"],
+        "respuesta": "Gaspar Benegas"
+
+
+    },
+
+    {
+        "preguntas": "Que banda canta la cancion, Bicho de Ciudad??",
+        "opciones": ["Los Piojos", "Divididos","Banda XXI"],
+        "respuesta": "Los Piojos"
+
+
+    },
+
+
+    {
+        "preguntas": "Donde se llevo acabo la famosa Ultima misa, ultimo recital del Indio Solari?? ",
+        "opciones": ["Olavarria", "Rosario","Berazategui"],
+        "respuesta": "Olavarria"
+
+
+    },
+
+    {
+        "preguntas": "Como se llama el ultimo album del cantante Tiago PZK??",
+        "opciones": ["Infinito", "Sabor a Miel","Portales"],
+        "respuesta": "Portales"
+
+
+    },
+
+    {
+        "preguntas": "Cuantos son los integrantes de los Autenticos Decadentes??",
+        "opciones": ["12", "8","11"],
+        "respuesta": "12"
+
+
+    },
+
+    {
+        "preguntas": "Que cancion recibio el premio a cancion del año en la edicion 2022 de los premios Gardel??",
+        "opciones": ["Mienteme", "Arrancamelo","Perreo Bendito"],
+        "respuesta": "Mienteme"
+
+
+    },
+
+    {
+        "preguntas": "Con quien protagoniza Maria becerra, el famoso hit Que mas pues??",
+        "opciones": ["Nicky Jam", "Khea","J Balvin"],
+        "respuesta": "J Balvin"
+
+
+    },
+
+    {
+        "preguntas": "Que famoso artista internacional se presenta en Argentina el 4 y 5 de Noviembre en el estadio Velez??",
+        "opciones": ["Bad Bunny", "Don Omar","Daddy Yankee"],
+        "respuesta": "Bad Bunny"
+
+
+    },
+
+    {
+        "preguntas": "Quien canta la cancion Persiana americana??",
+        "opciones": ["La Beriso", "Soda Stereo","Los Redondos"],
+        "respuesta": "Soda Stereo"
+
+
+    },
+
+    {
+        "preguntas": "Con que artista reciente realizo una colaboracion Andres Calamaro??",
+        "opciones": ["Duki", "C Tangana","Nicki Nicole"],
+        "respuesta": "C Tangana"
+
+
+    },
+
+    {
+        "preguntas": "Que artista recreo en una version actual el tema Ahora te podes marchar, de Luis Miguel??",
+        "opciones": ["Wos", "Abraham Mateo","Trueno"],
+        "respuesta": "Abraham Mateo"
+
+
+    },
+
+    {
+        "preguntas": "Como se llama el tema colaboracion que tienen juntos Duki y Bizarrap??",
+        "opciones": ["Malbec", "Argentina","Boss"],
+        "respuesta": "Malbec"
+
+
+    },
+
+    {
+        "preguntas": "Cual de estas canciones pertenece a la banda SUMO",
+        "opciones": ["Cuando no estas", "La Rubia Tarada","Nada personal"],
+        "respuesta": "La Rubia Tarada"
+
+
+    },
+
+    {
+        "preguntas": "Que artista del trap argentino usa de apodo El Hombre remix??",
+        "opciones": ["Duki", "Ysy A","Khea"],
+        "respuesta": "Duki"
+
+
+    },
+
+    {
+        "preguntas": "Cuantos shows dio Maria Becerra en su primer presentacion de album, en el teatro Rivadavia??",
+        "opciones": ["22", "10","15"],
+        "respuesta": "22"
+
+
+    },
+
+    {
+        "preguntas": "Quienes eran los integrantes de Modo Diablo??",
+        "opciones": ["Duki, CRO , Ysy A", "Duki, Neo Pistea, Ysy A","Ysy A, Neo Pistea, CRO"],
+        "respuesta": "Duki, Neo Pistea, Ysy A"
+
+
+    },
+
+    {
+        "preguntas": "Que artista del trap argentino provoco un temblor durante uno de sus recitales y recibio el apodo del Hombre sismo",
+        "opciones": ["Ysy A", "Wos","Trueno"],
+        "respuesta": "Ysy A"
+
+
     }
+
+    
+
+    
+
+    
+
+
+
+
+
+
+
+
+
 ]

@@ -3,12 +3,37 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: Midni;
+    src: url(/font/Midnight.ttf) format("");
+}
+
+@font-face {
+    font-family: Blutea;
+    src: url(/font/Bluetea.ttf) format("");
+
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(/font/Roboto-Light.ttf) format("");
+}
+
+.logo__navbar {
+    width: 86px;
+}
+
+.background__nav{
+    background-color: rgb(63, 143, 181);
+}
+
 .contenedor__general {
     background: rgb(203, 44, 240);
     background: radial-gradient(circle, rgba(203, 44, 240, 1) 15%, rgba(240, 44, 92, 1) 35%, rgba(233, 1, 246, 1) 44%, rgba(0, 255, 224, 1) 84%, rgba(21, 193, 231, 1) 91%);
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 100vh;
 }
 
@@ -21,19 +46,25 @@
 }
 
 .titulo__cuestionario{
-    color: #2c52f0;
+    color: black;
     font-size: 3rem;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    padding: 2px 0;
+    font-family: Midni;
 }
 
 #pregunta{
-    font-size: 1.7rem;
-    color: black;
+    font-size: 22px;
+    color: rgba(21, 193, 231, 1);
+    background-color: rgba(0, 0, 0, 40%);
+    border-radius: 50px;
+    font-family: Roboto;
 }
 
 #opciones{
-    align-items: center;
+    text-align: center;
+    font-family: Roboto;
 }
 
 .boton{
@@ -56,5 +87,33 @@
 #progreso{
     font-size: 20px;
     margin: 10px;
+    font-family: Midni;
     
+}
+
+.boton__reseteo{
+    background-color:rgb(203, 44, 240);
+    color: white;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 1rem;
+    padding: 10px 20px;
+    margin: 10px 40px 10px 0;
+   
+    
+}
+
+.link__reseteo{
+    text-decoration: none;
+    color: black;
+
+}
+
+.texto__reseteo{
+    
+
+}
+
+.texto__reseteo:hover{
+    color: beige;
 }

@@ -3,10 +3,11 @@
 export class Question {
 /**Objeto contructor de las preguntas del cuestionario */
 
-    constructor(texto,opciones,respuesta) {
+    constructor(texto,opciones,respuesta,usuario) {
         this.texto = texto;
         this.opciones = opciones;
         this.respuesta = respuesta;
+        this.usuario = usuario;
 
     }
 
