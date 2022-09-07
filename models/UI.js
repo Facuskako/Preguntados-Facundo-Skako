@@ -29,7 +29,7 @@ export class UI {
     mostrarPuntaje(puntaje){
         const quizFinalHTML = `
         <h1 class="titulo__cuestionario">Resultado</h1>
-        <h2 class="titulo__cuestionario">Tu Puntaje es: ${puntaje}</h2>
+        <h2 class="puntaje__cuestionario">Tu Puntaje es: ${puntaje}</h2>
         <h3 class="titulo__cuestionario"> !Felicitaciones¡ </h3>
         <button class="boton__reseteo">
             <a class="link__reseteo" href="index.html">
